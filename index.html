@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Заметки</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <h1>Мои заметки</h1>
+
+  <section class="note-form">
+    <textarea id="noteText" rows="4" placeholder="Введите текст заметки..."></textarea>
+    <div class="coords-info" id="coordsDisplay">Координаты: ожидание...</div>
+    <button id="addBtn">Добавить заметку</button>
+    <div id="status"></div>
+  </section>
+
+  <section class="notes-list">
+    <h2>Список заметок</h2>
+    <ul id="notesContainer"></ul>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
